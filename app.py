@@ -637,7 +637,7 @@ cols = [
     for c in [
         "ticket_id",
         "company_name",
-        "ticket name",
+        "subject",
         "stage_label",
         "hs_ticket_priority",
         "createdate",
