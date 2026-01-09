@@ -11,8 +11,7 @@ import streamlit as st
 # Config
 # ----------------------------
 
-HUBSPOT_TOKEN = st.secrets["hubspot"]["token"]
-BASE = st.secrets["hubspot"]["base_url"]
+
 
 HEADERS = {
     "Authorization": f"Bearer {HUBSPOT_TOKEN}",
